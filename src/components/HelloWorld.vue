@@ -26,10 +26,14 @@
 </template>
 
 <script>
-import {mapState} from 'vuex'
+import axios from 'axios'
 
 export default {
+  /**
+   * Datatable component to display a data of ambassadors to clients
+   * */
   name: 'HelloWorld',
+  /** Component's state, this is reactive when attributes in data are change the UI is updated to reflect that*/
   data() {
     return {
       headers: [
@@ -38,14 +42,22 @@ export default {
         {text: 'EMV', value: 'emv'},
         {text: 'Post Count', value: 'post_count'}
       ],
-      ambassadors2: []
+      ambassadors: []
     }
   },
-  computed: mapState({
-    ambassadors: state => state.ambassadors.ambassadors
-  }),
-  created() {
-    this.$store.dispatch('ambassadors/getAmbassadors')
-  }
+  /** Vue lifecycle hook, this is called when a component is mounted onto a page*/
+  async created() {
+    const response = await axios.get('/api/ambassadors')
+    this.ambassadors = response.data
+  },
+  // An alternative example would leverage the Vuex state manage patterns and library
+  // this removes the need to track the ambassadors array in the component's data state
+  // import { mapState } from 'vuex' // import this at the top
+  // computed: mapState({
+  //   ambassadors: state => state.ambassadors.ambassadors
+  // }),
+  // created() {
+  //   this.$store.dispatch('ambassadors/getAmbassadors')
+  // }
 }
 </script>
