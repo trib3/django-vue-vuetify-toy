@@ -1,6 +1,6 @@
 # Django Vue Vuetify
 
-![Uploading Screen Shot 2022-01-17 at 10.32.09 PM.png…]()
+<img width="964" alt="Screen Shot 2022-01-17 at 10 32 09 PM" src="https://user-images.githubusercontent.com/8963934/150020999-efb07123-473f-422e-895f-2f2a53d3ec26.png">
 
 This project is a minimal example for an application using Vue, Vuetify, and Django.
 
