@@ -20,7 +20,7 @@ data at `/api/`, and static files at `/static/`. Django admin panel is also avai
 | `/src/main.js`       | JS Application Entry Point                 |
 | `/public/index.html` | [Html Application Entry Point](https://cli.vuejs.org/guide/html-and-static-assets.html) (`/`)         |
 | `/public/static`     | Static Assets                              |
-| `/dist/`             | Bundled Assets Output (generated at `yarn build`) |
+| `/dist/`             | Bundled Assets Output (generated at `npm run build`) |
 
 ## Setup Template
 
