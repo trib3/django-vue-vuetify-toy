@@ -1,5 +1,7 @@
 # Django Vue Vuetify
 
+![Uploading Screen Shot 2022-01-17 at 10.32.09 PM.png…]()
+
 This project is a minimal example for an application using Vue, Vuetify, and Django.
 
 Vue and Django are clearly separated in this project. Vue, Npm and Webpack handles all frontend logic and bundling assessments. Django and Django REST framework to manage Data Models, Web API and serve static files.
