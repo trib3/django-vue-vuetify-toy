@@ -1,6 +1,6 @@
 # Django Vue Vuetify
 
-<img width="964" alt="Screen Shot 2022-01-17 at 10 32 09 PM" src="https://user-images.githubusercontent.com/8963934/150020999-efb07123-473f-422e-895f-2f2a53d3ec26.png">
+<img width="956" alt="Screen Shot 2022-01-18 at 4 25 32 PM" src="https://user-images.githubusercontent.com/8963934/150040410-924c0cbc-00b8-494c-a3e8-0489ce9d8fb7.png">
 
 This project is a minimal example for an application using Vue, Vuetify, and Django.
 
@@ -32,6 +32,7 @@ Setup
 $ npm install
 $ pip install
 $ python manage.py migrate
+$ python manage.py loaddata fixtures.json
 ```
 
 ## Running Development Servers

@@ -7,16 +7,14 @@ The `urlpatterns` list routes URLs to views. For more information please see:
 from django.contrib import admin
 from django.urls import path
 
-from .api.views import index_view, ambassadors
+from .api.views import index_view, profiles
 
 
 urlpatterns = [
-
     # http://localhost:8000/
-    path('', index_view, name='index'),
-
-    # http://localhost:8000/api/ambassadors/
-    path('api/ambassadors/', ambassadors),
+    path("", index_view, name="index"),
+    # http://localhost:8000/api/profiles/
+    path("api/profiles/", profiles),
     # http://localhost:8000/api/admin/
-    path('api/admin/', admin.site.urls),
+    path("api/admin/", admin.site.urls),
 ]

@@ -1,92 +1,101 @@
 [
   {
-    "model": "api.ambassador",
+    "model": "api.profile",
     "pk": 1,
     "fields": {
-      "name": "Adele Lynch",
-      "thumbnail": "https://dc-img.trib3.com/media_outlet/89249/images/98f3cc05-ce9a-4c5b-9806-6bdac59e821f.jpeg"
+      "channel": "instagram",
+      "thumbnail": "https://s3.amazonaws.com/dc-img.trib3.com/posts/1002804/images/b345355a18781504ecd0d884b3c37575.jpeg",
+      "name": "lifeoftanyamarie",
+      "ext_id": 241343254,
+      "link": "https://www.instagram.com/lifeoftanyamarie/",
+      "followers": 90900
     }
   },
   {
-    "model": "api.ambassador",
+    "model": "api.post",
+    "pk": 1,
+    "fields": {
+      "user_tags": "@nike,@sephora",
+      "profile": 241343254,
+      "views": 18095,
+      "likes": 2155,
+      "shares": 0,
+      "comments": 60,
+      "thumbnail": "https://ciq.s3.aws.com/posts/instagram/CTAVGT5nQtr.jpg",
+      "ext_id": "241343254_6378462387",
+      "link": "https://www.instagram.com/tv/CTAVGT5nQtr",
+      "message": "Queens! I know you've been waiting for this video, so I'm so happy I could walk you through how I am currently doing my brows. I have linked all the products for you as well in my bio😘 feel free to ask questions in the comments! \n\n#eyebrows #eyebrowtutorial #brow #browtutorial #makeup #makeuptutorial #makeupartist #makeuplife #makeupartist #mua #makeuptutorials #lifeoftanyamarie",
+      "request_time": "2021-11-17 21:30:33.217662Z",
+      "publish_time": "2021-08-25 17:09:45Z",
+      "title": "",
+      "media_type": "video",
+      "channel": "instagram"
+    }
+  },
+  {
+    "model": "api.post",
     "pk": 2,
     "fields": {
-      "name": "M A K E U P BY A Y E S H A",
-      "thumbnail": "https://s3.amazonaws.com/dc-img.trib3.com/posts/1002804/images/b345355a18781504ecd0d884b3c37575.jpeg"
+      "user_tags": "@nike,@sephora",
+      "profile": 241343254,
+      "views": 123,
+      "likes": 2155,
+      "shares": 4,
+      "comments": 60,
+      "thumbnail": "https://ciq.s3.aws.com/posts/instagram/CTAVGT5nQtr.jpg",
+      "ext_id": "24134321254_6378462387",
+      "link": "https://www.instagram.com/tv/CTAVGT5nQtr",
+      "message": "Queens! I know you've been waiting for this video, so I'm so happy I could walk you through how I am currently doing my brows. I have linked all the products for you as well in my bio😘 feel free to ask questions in the comments! \n\n#eyebrows #eyebrowtutorial #brow #browtutorial #makeup #makeuptutorial #makeupartist #makeuplife #makeupartist #mua #makeuptutorials #lifeoftanyamarie",
+      "request_time": "2021-11-17 21:30:33.217662Z",
+      "publish_time": "2021-08-25 17:09:45Z",
+      "title": "",
+      "media_type": "video",
+      "channel": "instagram"
     }
   },
   {
-    "model": "api.ambassador",
-    "pk": 3,
+    "model": "api.profile",
+    "pk": 2,
     "fields": {
+      "channel": "youtube",
+      "thumbnail": "https://dc-img.trib3.com/media_outlet/63068/images/6c234d9b-7c31-4692-90f8-c8c4e056624a.jpeg",
       "name": "An Knook",
-      "thumbnail": "https://dc-img.trib3.com/media_outlet/63068/images/6c234d9b-7c31-4692-90f8-c8c4e056624a.jpeg"
-    }
-  },
-  {
-    "model": "api.post",
-    "pk": 1,
-    "fields": {
-      "ambassador": 1,
-      "link": "",
-      "likes": 2,
-      "comments": 4,
-      "emv": 100
-    }
-  },
-  {
-    "model": "api.post",
-    "pk": 2,
-    "fields": {
-      "ambassador": 1,
-      "link": "",
-      "likes": 3,
-      "comments": 4,
-      "emv": 5000
+      "ext_id": 241343255,
+      "link": "https://www.instagram.com/An Knook/",
+      "followers": 12345
     }
   },
   {
     "model": "api.post",
     "pk": 3,
     "fields": {
-      "ambassador": 2,
-      "link": "",
-      "likes": 5,
-      "comments": 200,
-      "emv": 123123
+      "user_tags": "",
+      "profile": 241343255,
+      "views": 1239081,
+      "likes": 1325,
+      "shares": 0,
+      "comments": 60,
+      "thumbnail": "https://ciq.s3.aws.com/posts/instagram/CTAVGT5nQtr.jpg",
+      "ext_id": "2412a1343254_6378462387",
+      "link": "https://www.instagram.com/tv/CTAVGT5nQtr",
+      "message": "Queens! I know you've been waiting for this video, so I'm so happy I could walk you through how I am currently doing my brows. I have linked all the products for you as well in my bio😘 feel free to ask questions in the comments! \n\n#eyebrows #eyebrowtutorial #brow #browtutorial #makeup #makeuptutorial #makeupartist #makeuplife #makeupartist #mua #makeuptutorials #lifeoftanyamarie",
+      "request_time": "2021-11-17 21:30:33.217662Z",
+      "publish_time": "2021-08-25 17:09:45Z",
+      "title": "",
+      "media_type": "video",
+      "channel": "instagram"
     }
   },
   {
-    "model": "api.post",
-    "pk": 4,
+    "model": "api.profile",
+    "pk": 3,
     "fields": {
-      "ambassador": 2,
-      "link": "",
-      "likes": 123412,
-      "comments": 124125,
-      "emv": 125435
-    }
-  },
-  {
-    "model": "api.post",
-    "pk": 5,
-    "fields": {
-      "ambassador": 3,
-      "link": "",
-      "likes": 123412,
-      "comments": 124125,
-      "emv": 125435
-    }
-  },
-  {
-    "model": "api.post",
-    "pk": 6,
-    "fields": {
-      "ambassador": 3,
-      "link": "",
-      "likes": 123,
-      "comments": 123,
-      "emv": 1254
+      "channel": "facebook",
+      "thumbnail": "https://s3.amazonaws.com/dc-img.trib3.com/profiles/in4189224206.jpg",
+      "name": "Melanin Ezeofor",
+      "ext_id": 241343256,
+      "link": "https://www.instagram.com/An Knook/",
+      "followers": 210
     }
   }
 ]

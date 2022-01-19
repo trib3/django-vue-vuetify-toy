@@ -1,8 +1,8 @@
 import api from '@/services/api'
 
 export default {
-  fetchAmbassadors() {
-    return api.get(`ambassadors/`)
+  fetchProfiles() {
+    return api.get(`profiles/`)
               .then(response => response.data)
   },
 }
