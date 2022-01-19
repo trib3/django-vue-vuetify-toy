@@ -62,4 +62,5 @@ and the page will not reload on changes.
 ```
 $ npm run build
 $ python manage.py runserver
+$ python manage.py loaddata fixtures.json
 ```
